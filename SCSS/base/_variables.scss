@@ -1,0 +1,11 @@
+$color-principal: #6F1D1B;
+$color-secundario: burlywood;
+
+$ancho:100px;
+
+@mixin flex ($display, $direction, $justify, $align){
+    display: $display;
+    flex-direction: $direction; 
+    justify-content: $justify;
+    align-items: $align;
+}

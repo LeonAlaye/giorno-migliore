@@ -1,0 +1,46 @@
+@import "../base/variables";
+
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-principal;
+        }
+
+        h1 {
+            margin: 0;
+            margin-left: 1%;
+            text-align: center;
+            font-family: 'Amaranth', sans-serif;
+        }
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+
+            li {
+                text-align: center;
+                margin: 20px;
+                font-size: 20px;
+                font-family: 'Amaranth', sans-serif;
+
+                a {
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+footer{
+    background-color: gray;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    h4{
+        text-align: center;
+        font-family: 'Amaranth', sans-serif;
+        font-weight: bold;
+        color: black;
+    }
+
+    .redes{
+            a{
+                img{
+                    width: 30px;
+                }
+            }
+    }
+}

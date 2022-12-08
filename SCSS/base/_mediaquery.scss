@@ -1,0 +1,462 @@
+@import "./variables";
+
+@media screen and (max-width:1800px) {
+    .img-nosotros div img {
+        height: 400px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 {
+        flex-direction: column;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 {
+        flex-direction: column;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img {
+        width: $ancho * 5;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img {
+        width: $ancho * 4;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico {
+        height: 280px;
+    }
+
+    .contenedor-padre-productos {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        grid-template-areas:
+            "section1"
+            "section2"
+            "section3"
+        ;
+    }
+
+    .contenedor-padre-productos .contenedor-extras .extras{
+        padding: 0;
+    }
+
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+        padding: 0;
+    }
+
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+        padding: 0;
+    }
+
+    .contenedor-padre-productos .contenedor-medialunas .medialunas{
+        padding: 0;
+    }
+
+    .contenedor-padre-productos .contenedor-extras{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contenedor-padre-productos .contenedor-medialunas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes{
+        padding: 0;
+    }
+    .contenedor-padre-productos .contenedor-extras .extras{
+        padding: 0;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .medialunas{
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width:1450px) {
+    .hero h2 {
+        font-size: 45px;
+    }
+
+    .hero p {
+        font-size: 30px;
+    }
+
+    .registrate h2 {
+        font-size: 40px;
+    }
+
+    .registrate .formulario {
+        @include flex (flex, column, center, flex-start);
+        margin-left: 40px;
+    }
+
+    .img-nosotros div img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .section-localidad h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .section-localidad .contenedor-localidad {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-localidad .contenedor-localidad .nuestros-horarios {
+        margin-bottom: 30px;
+    }
+
+    .section-localidad .contenedor-localidad .como-llegar {
+        margin-top: 30px;
+    }
+
+    .section-localidad h2 {
+        font-size: 40px;
+    }
+
+    .img-nosotros div img {
+        height: 250px;
+    }
+    .contenedor-padre-productos .contenedor-cafes .cafes{
+        flex-direction: column;
+    }
+
+    .contenedor-padre-productos .contenedor-extras .extras{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contenedor-padre-productos .contenedor-medialunas .medialunas{
+        flex-direction: column;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico{
+        height: 350px;
+    }
+
+
+}
+
+@media screen and (max-width:1000px) {
+    .grid-cioccolato-sorteo {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        grid-template-areas:
+            "producto-nuevo"
+            "sorteo"
+        ;
+    }
+
+    .grid-cioccolato-sorteo .producto-nuevo {
+        margin: 0;
+    }
+
+    .grid-cioccolato-sorteo .producto-nuevo h3 {
+        margin: 0;
+    }
+
+    .grid-cioccolato-sorteo .sorteo {
+        margin: 0;
+    }
+
+    .grid-cioccolato-sorteo .sorteo h3 {
+        margin-top: 80px;
+    }
+
+    .grid-cioccolato-sorteo .sorteo .carrusel-sorteo {
+        margin: 0;
+    }
+
+    .section-localidad h2 {
+        font-size: 35px;
+    }
+
+    .img-nosotros div img {
+        height: 200px;
+    }
+
+    .historia-nosotros h2 {
+        font-size: 40px;
+    }
+
+    .historia-nosotros p {
+        font-size: 25px;
+    }
+
+    .h2-productos{
+        font-size: 45px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3{
+        font-size: 30px;
+    }
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+        font-size: 30px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+        font-size: 30px;
+    }
+}
+
+
+
+
+@media screen and (max-width:850px) {
+    header {
+        @include flex (flex, column, center, center);
+    }
+
+    footer {
+        @include flex (flex, column, center, center);
+    }
+
+    .hero h2 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 25px;
+    }
+
+    .historia-nosotros p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img{
+        height: 200px;
+        width: 350px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img{
+        height: 200px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .img-nosotros div img {
+        height: 170px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header nav ul {
+        @include flex (flex, column, center, center);
+        padding: 0;
+    }
+
+    .registrate h2 {
+        font-size: 30px;
+    }
+
+    .registrate .formulario {
+        align-items: center;
+        margin: 0;
+    }
+
+    .registrate .formulario div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-nosotros div img {
+        height: 250px;
+        margin: 30px;
+    }
+
+    .h2-productos{
+        font-size: 35px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img{
+        height: 150px;
+        width: 262px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img{
+        height: 150px;
+        width: 262px;
+    }
+
+    .contenedor-padre-productos .contenedor-extras .extras div img{
+        height: 200px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div img{
+        height: 200px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico{
+        height: 250px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3{
+        font-size: 25px;
+    }
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+        font-size: 25px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .img-nosotros div img {
+        height: 220px;
+    }
+
+    .contenedor-padre-productos .contenedor-extras .extras div img{
+        height: 150px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div img{
+        height: 150px;
+    }
+
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div .medialunas-saladas-unica{
+        height: 250px;
+        width: 250px;
+    }
+    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3{
+        font-size: 20px;
+    }
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+        font-size: 20px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+        font-size: 20px;
+    }
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img{
+        height: 113px;
+        width: 196px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img{
+        height: 113px;
+        width: 196px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico{
+        height: 190px;
+    }
+
+    .contenedor-padre-productos .contenedor-cafes .cafes{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .grid-cioccolato-sorteo .producto-nuevo div img {
+        height: 250px;
+    }
+
+    .grid-cioccolato-sorteo .sorteo h3 {
+        margin-top: 50px;
+    }
+
+    .img-nosotros div img {
+        height: 200px;
+    }
+
+    .historia-nosotros h2 {
+        font-size: 30px;
+    }
+
+    .contenedor-padre-productos .contenedor-extras .extras div img{
+        height: 120px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div img{
+        height: 120px;
+    }
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div .medialunas-saladas-unica{
+        height: 180px;
+        width: 180px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .section-localidad .contenedor-localidad .como-llegar {
+        display: none;
+    }
+
+    .section-localidad .contenedor-localidad .nuestros-horarios h3 {
+        font-size: 30px;
+    }
+
+    .section-localidad .contenedor-localidad .nuestros-horarios h5 {
+        font-size: 20px;
+    }
+
+    .img-nosotros div img {
+        height: 180px;
+    }
+    .h2-productos{
+        font-size: 25px;
+    }
+    
+}
+
+@media screen and (max-width: 430px) {
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .hero p {
+        font-size: 20px;
+    }
+
+    .registrate h2 {
+        font-size: 20px;
+    }
+
+    .img-nosotros div img {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .historia-nosotros h2 {
+        font-size: 25px;
+    }
+
+    .historia-nosotros p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .grid-cioccolato-sorteo .producto-nuevo div img {
+        height: 200px;
+    }
+
+    .grid-cioccolato-sorteo .sorteo .carrusel-sorteo {
+        width: 250px;
+    }
+
+
+}
+
+@media screen and (max-width:330px) {
+    .section-localidad .contenedor-localidad .nuestros-horarios h5 {
+        font-size: 17px;
+    }
+}
