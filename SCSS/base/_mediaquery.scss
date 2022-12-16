@@ -5,6 +5,10 @@
         height: 400px;
     }
 
+    .grid-cioccolato-sorteo .sorteo .carrusel-sorteo{
+        margin-top: 20px;
+    }
+
     .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 {
         flex-direction: column;
     }
@@ -14,15 +18,17 @@
     }
 
     .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img {
-        width: $ancho * 5;
+        width: $ancho * 4;
     }
 
     .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img {
         width: $ancho * 4;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico {
-        height: 280px;
+
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 {
+        align-items: center;
     }
 
     .contenedor-padre-productos {
@@ -36,41 +42,43 @@
         ;
     }
 
-    .contenedor-padre-productos .contenedor-extras .extras{
+    .contenedor-padre-productos .contenedor-extras .extras {
         padding: 0;
     }
 
-    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3 {
         padding: 0;
     }
 
-    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3 {
         padding: 0;
     }
 
-    .contenedor-padre-productos .contenedor-medialunas .medialunas{
+    .contenedor-padre-productos .contenedor-medialunas .medialunas {
         padding: 0;
     }
 
-    .contenedor-padre-productos .contenedor-extras{
+    .contenedor-padre-productos .contenedor-extras {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .contenedor-padre-productos .contenedor-medialunas{
+    .contenedor-padre-productos .contenedor-medialunas {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes{
+    .contenedor-padre-productos .contenedor-cafes .cafes {
         padding: 0;
     }
-    .contenedor-padre-productos .contenedor-extras .extras{
+
+    .contenedor-padre-productos .contenedor-extras .extras {
         padding: 0;
     }
-    .contenedor-padre-productos .contenedor-medialunas .medialunas{
+
+    .contenedor-padre-productos .contenedor-medialunas .medialunas {
         padding: 0;
     }
 
@@ -106,6 +114,10 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .grid-cioccolato-sorteo .sorteo .carrusel-sorteo{
+        margin-top: 20px;
+    }
+
     .section-localidad .contenedor-localidad {
         padding: 20px;
         display: flex;
@@ -128,24 +140,19 @@
     .img-nosotros div img {
         height: 250px;
     }
-    .contenedor-padre-productos .contenedor-cafes .cafes{
+
+    .contenedor-padre-productos .contenedor-cafes .cafes {
         flex-direction: column;
     }
 
-    .contenedor-padre-productos .contenedor-extras .extras{
+    .contenedor-padre-productos .contenedor-extras .extras {
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .contenedor-padre-productos .contenedor-medialunas .medialunas{
+    .contenedor-padre-productos .contenedor-medialunas .medialunas {
         flex-direction: column;
     }
-
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico{
-        height: 350px;
-    }
-
-
 }
 
 @media screen and (max-width:1000px) {
@@ -195,17 +202,19 @@
         font-size: 25px;
     }
 
-    .h2-productos{
+    .h2-productos {
         font-size: 45px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3{
+    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3 {
         font-size: 30px;
     }
-    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3 {
         font-size: 30px;
     }
-    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3 {
         font-size: 30px;
     }
 }
@@ -235,15 +244,15 @@
     }
 }
 
-@media screen and (max-width:750px){
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img{
+@media screen and (max-width:750px) {
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img {
         height: 200px;
-        width: 350px;
+        width: 330px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img{
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img {
         height: 200px;
-        width: 350px;
+        width: 330px;
     }
 }
 
@@ -283,89 +292,88 @@
         margin: 30px;
     }
 
-    .h2-productos{
+    .h2-productos {
         font-size: 35px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img{
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img {
         height: 150px;
         width: 262px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img{
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img {
         height: 150px;
         width: 262px;
     }
 
-    .contenedor-padre-productos .contenedor-extras .extras div img{
-        height: 200px;
-    }
-    .contenedor-padre-productos .contenedor-medialunas .medialunas div img{
+    .contenedor-padre-productos .contenedor-extras .extras div img {
         height: 200px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico{
-        height: 250px;
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div img {
+        height: 200px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3{
+    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3 {
         font-size: 25px;
     }
-    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3 {
         font-size: 25px;
     }
-    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3 {
         font-size: 25px;
     }
 }
 
 @media screen and (max-width:530px) {
+    .grid-cioccolato-sorteo .producto-nuevo div img {
+        height: 200px;
+    }
+
     .img-nosotros div img {
         height: 220px;
     }
 
-    .contenedor-padre-productos .contenedor-extras .extras div img{
-        height: 150px;
-    }
-    .contenedor-padre-productos .contenedor-medialunas .medialunas div img{
+    .contenedor-padre-productos .contenedor-extras .extras div img {
         height: 150px;
     }
 
-    .contenedor-padre-productos .contenedor-medialunas .medialunas div .medialunas-saladas-unica{
-        height: 250px;
-        width: 250px;
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div img {
+        height: 150px;
     }
-    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3{
+
+    .contenedor-padre-productos .contenedor-cafes .titulo-productos-1 h3 {
         font-size: 20px;
     }
-    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3{
+
+    .contenedor-padre-productos .contenedor-extras .titulo-productos-2 h3 {
         font-size: 20px;
     }
-    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3{
+
+    .contenedor-padre-productos .contenedor-medialunas .titulo-productos-3 h3 {
         font-size: 20px;
     }
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img{
+
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes1 div img {
         height: 113px;
         width: 196px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img{
+    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div img {
         height: 113px;
         width: 196px;
     }
 
-    .contenedor-padre-productos .contenedor-cafes .cafes .cafes2 div .cafe-cioccolato-unico{
-        height: 190px;
-    }
-
-    .contenedor-padre-productos .contenedor-cafes .cafes{
+    .contenedor-padre-productos .contenedor-cafes .cafes {
         padding: 0;
     }
 }
 
 @media screen and (max-width: 470px) {
     .grid-cioccolato-sorteo .producto-nuevo div img {
-        height: 250px;
+        height: 150px;
     }
 
     .grid-cioccolato-sorteo .sorteo h3 {
@@ -380,17 +388,13 @@
         font-size: 30px;
     }
 
-    .contenedor-padre-productos .contenedor-extras .extras div img{
+    .contenedor-padre-productos .contenedor-extras .extras div img {
         height: 120px;
-    }
-    .contenedor-padre-productos .contenedor-medialunas .medialunas div img{
-        height: 120px;
-    }
-    .contenedor-padre-productos .contenedor-medialunas .medialunas div .medialunas-saladas-unica{
-        height: 180px;
-        width: 180px;
     }
 
+    .contenedor-padre-productos .contenedor-medialunas .medialunas div img {
+        height: 120px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -409,10 +413,11 @@
     .img-nosotros div img {
         height: 180px;
     }
-    .h2-productos{
+
+    .h2-productos {
         font-size: 25px;
     }
-    
+
 }
 
 @media screen and (max-width: 430px) {
@@ -434,6 +439,10 @@
 }
 
 @media screen and (max-width:400px) {
+    .grid-cioccolato-sorteo .producto-nuevo div img {
+        height: 120px;
+    }
+
     .historia-nosotros h2 {
         font-size: 25px;
     }
@@ -443,13 +452,10 @@
     }
 }
 
-@media screen and (max-width: 386px) {
-    .grid-cioccolato-sorteo .producto-nuevo div img {
-        height: 200px;
-    }
+@media screen and (max-width: 349px) {
 
     .grid-cioccolato-sorteo .sorteo .carrusel-sorteo {
-        width: 250px;
+        width: 240px;
     }
 
 
