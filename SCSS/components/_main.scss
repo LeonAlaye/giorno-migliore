@@ -142,9 +142,17 @@ main {
 }
 
 
-h2 {}
 
 /*------------------------PRODUCTOS---------------------------------------*/
+
+.h2-productos{
+    background-image: url(../img/fondo-productos3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
 
 .contenedor-padre-productos {
     padding: 0;
