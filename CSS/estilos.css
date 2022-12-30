@@ -307,6 +307,8 @@ main {
     font-size: 30px;
     font-weight: bold;
     color: white; }
+  .historia-nosotros .parrafo-historia {
+    margin-bottom: 60px; }
 
 .img-nosotros {
   background-image: url(../img/fondo-oscuro.jpg);
@@ -348,6 +350,7 @@ section .formulario {
   section .formulario div {
     padding-bottom: 40px; }
     section .formulario div label {
+      color: black;
       font-size: 20px;
       font-weight: bold; }
 
